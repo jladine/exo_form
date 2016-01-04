@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>exo_form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <form id="form_1">
+      <label for="name">Full name <i>*</i></label>
+      <input id="name" class="nom_prenom height30" type=text placeholder=First>
+      <input class="nom_prenom height30" type=text placeholder=Last>
+      <label for="email">Email <i>*</i></label>
+      <input id="email" class="email height30" type="email">
+      <label for="subject">Subject</label>
+      <select class="height30">
+        <option>advertiss</option>
+        <option>advertiss2</option>
+      </select>
+      <label for="message">Your message <i>*</i></label>
+      <textarea></textarea>
+      <input class="button_1" type="submit">
+    </form>
+    <form id="form_2">
+      <p>Provide your information</p>
+      <div class="div_form_2">
+        <label for="name">Name<i>*</i></label>
+        <input class="nom_mail_form_2 height30" type=text>
+      </div>
+      <div class="div_form_2">
+        <label for="email">Email<i>*</i></label>
+        <input class="nom_mail_form_2 height30" type=email>
+      </div>
+      <div class="div_form_2">
+        <label for="tel">Telephone</label>
+        <input class="case_tel height30" type="text" maxlength="2">-
+        <input class="case_tel height30" type="text" maxlength="2">-
+        <input class="case_tel height30" type="text" maxlength="2">-
+        <input class="case_tel height30" type="text" maxlength="2">-
+        <input class="case_tel height30" type="text" maxlength="2">
+      </div>
+      <div class="div_form_2">
+        <label for="regarding">Regarding</label>
+        <select class="height30 regarding">
+          <option>General</option>
+          <option>General 2</option>
+        </select>
+      </div>
+      <div class="div_form_2">
+        <label for="message2">Message<i>*</i></label>
+        <textarea id="message2"></textarea>
+      </div>
+      <input class="button_2" type="submit">
+    </form>
+    <form id="form_3">
+      <fieldset>
+        <legend>Personnal</legend>
+        <label for="name">Name<i>*</i></label>
+        <input class="nom_mail_form_2 height30" type=text>
+      </div>
+      <div class="div_form_3">
+        <label for="email">Email<i>*</i></label>
+        <input class="nom_mail_form_2 height30" type=email>
+      </div>
+      <div class="div_form_3">
+        <label for="tel">Phone<i>*</i></label>
+        <input class="height30">
+      </div>
+      <div class="div_form_3">
+        <label for="regarding">Subject</label>
+        <select class="height30 subject_form_3">
+          <option>Appointment</option>
+          <option>General 2</option>
+        </select>
+      </div>
+      </fieldset>
+      <fieldset>
+        <legend>Message</legend>
+        <div class="div_form_3">
+          <label for="message3">Message<i>*</i></label>
+          <textarea id="message3"></textarea>
+        </div>
+        <input class="button_3" type="submit">
+      </form>
+    </form>
+  </body>
+</html>
