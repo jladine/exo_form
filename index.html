@@ -8,8 +8,8 @@
   <body>
     <form id="form_1">
       <label for="name">Full name <i>*</i></label>
-      <input id="name" class="nom_prenom height30" type=text placeholder=First>
-      <input class="nom_prenom height30" type=text placeholder=Last>
+      <input id="name" class="nom_prenom" type=text placeholder=First>
+      <input id="last" class="nom_prenom" type=text placeholder=Last>
       <label for="email">Email <i>*</i></label>
       <input id="email" class="email height30" type="email">
       <label for="subject">Subject</label>
@@ -18,22 +18,22 @@
         <option>advertiss2</option>
       </select>
       <label for="message">Your message <i>*</i></label>
-      <textarea></textarea>
+      <textarea id="message"></textarea>
       <input class="button_1" type="submit">
     </form>
     <form id="form_2">
       <p>Provide your information</p>
       <div class="div_form_2">
-        <label for="name">Name<i>*</i></label>
-        <input class="nom_mail_form_2 height30" type=text>
+        <label for="name_2">Name<i>*</i></label>
+        <input id="name_2" class="height30" type=text>
       </div>
       <div class="div_form_2">
-        <label for="email">Email<i>*</i></label>
-        <input class="nom_mail_form_2 height30" type=email>
+        <label for="email_2">Email<i>*</i></label>
+        <input id="email_2" class="height30" type=email>
       </div>
       <div class="div_form_2">
-        <label for="tel">Telephone</label>
-        <input class="case_tel height30" type="text" maxlength="2">-
+        <label for="tel_2">Telephone</label>
+        <input id="tel_2" class="case_tel" type="text" maxlength="2">-
         <input class="case_tel height30" type="text" maxlength="2">-
         <input class="case_tel height30" type="text" maxlength="2">-
         <input class="case_tel height30" type="text" maxlength="2">-
@@ -41,30 +41,30 @@
       </div>
       <div class="div_form_2">
         <label for="regarding">Regarding</label>
-        <select class="height30 regarding">
+        <select class="height30" id="regarding">
           <option>General</option>
           <option>General 2</option>
         </select>
       </div>
       <div class="div_form_2">
-        <label for="message2">Message<i>*</i></label>
-        <textarea id="message2"></textarea>
+        <label for="message_2">Message<i>*</i></label>
+        <textarea id="message_2"></textarea>
       </div>
       <input class="button_2" type="submit">
     </form>
     <form id="form_3">
       <fieldset>
         <legend>Personnal</legend>
-        <label for="name">Name<i>*</i></label>
-        <input class="nom_mail_form_2 height30" type=text>
+        <label for="name_3">Name<i>*</i></label>
+        <input id="name_3" class="nom_mail_form_2 height30" type=text>
       </div>
       <div class="div_form_3">
-        <label for="email">Email<i>*</i></label>
-        <input class="nom_mail_form_2 height30" type=email>
+        <label for="email_3">Email<i>*</i></label>
+        <input id="email_3" class="nom_mail_form_2 height30" type=email>
       </div>
       <div class="div_form_3">
-        <label for="tel">Phone<i>*</i></label>
-        <input class="height30">
+        <label for="tel_3">Phone<i>*</i></label>
+        <input id="tel_3" class="height30">
       </div>
       <div class="div_form_3">
         <label for="regarding">Subject</label>
@@ -77,11 +77,75 @@
       <fieldset>
         <legend>Message</legend>
         <div class="div_form_3">
-          <label for="message3">Message<i>*</i></label>
-          <textarea id="message3"></textarea>
+          <label for="message_3">Message<i>*</i></label>
+          <textarea id="message_3"></textarea>
         </div>
         <input class="button_3" type="submit">
-      </form>
+      </fieldset>
+    </form>
+    <form id="form_4">
+      <div>
+        <label for="name_4">Enter Your Name</label>
+        <input id="name_4" type="text">
+      </div>
+      <div>
+        <label for="email_4">Email Address</label>
+        <input id="email_4" type="email">
+      </div>
+      <div>
+        <label for="short_subject">Short Subject</label>
+        <input id="short_subject" type="text">
+      </div>
+      <div>
+        <label for="message_4">Message to Us</label>
+        <input id="message_4" type="text">
+      </div>
+      <input class="button_4" type="submit">
+    </form>
+    <form id="form_5">
+      <h2><span>1</span> Candidate Info</h2>
+      <input class="saisie_form_5 height30" type="text" placeholder="Yout Name">
+      <input class="saisie_form_5 height30" type="email" placeholder="Your Email">
+      <textarea class="saisie_form_5" placeholder="About yourself"></textarea>
+      <label id="interests">Interests:</label>
+      <select class="height30 select_form_5">
+        <option>Fishkeeping</option>
+        <option>option2</option>
+      </select>
+      <h2><span>2</span> Additional Info</h2>
+      <textarea class="saisie_form_5" placeholder="About Your School"></textarea>
+      <input class="button_5" type="submit">
+    </form>
+    <form id="form_6">
+      <h1>Fill Form</h1>
+      <fieldset>
+        <legend>Name</legend>
+        <input type="text" placeholder="Enter yout full name here">
+      </fieldset>
+      <fieldset>
+        <legend>Email</legend>
+        <input type="email" placeholder="Enter a valid email address">
+      </fieldset>
+      <fieldset>
+        <legend>Website</legend>
+        <input type="url" placeholder="Your website address (ex: http://www.google.com)">
+      </fieldset>
+      <fieldset>
+        <legend>About You</legend>
+        <input type="text" placeholder="Say something about yourself">
+      </fieldset>
+      <div class="div_button_6">
+        <input class="button_6" type="submit">
+      </div>
+    </form>
+    <form id="form_7">
+      <input type="text" placeholder="Name"></input>
+      <input class="email_url" type="email" placeholder="Email"></input>
+      <input type="tel" placeholder="Phone"></input>
+      <input class="email_url" type="url" placeholder="Website"></input>
+      <input class="subject_form_7" type="text" placeholder="Subject"></input>
+      <textarea placeholder="Message"></textarea>
+      <input class="button_7" type="submit">
     </form>
   </body>
 </html>
